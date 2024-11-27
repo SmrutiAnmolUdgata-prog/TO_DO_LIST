@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>To Do List</title>
+  </head>
+  <body class="bg-sky-600">
+    <h1 class="bg-black text-white text-4xl text-center p-2">TO-DO-LIST</h1>
+    <div
+      class="w-auto h-auto text-center min-h-screen flex flex-col border-2 justify-center items-center"
+    >
+      <ul
+        id="list"
+        class="border-2 border-blue-600 p-10 font-bold shadow rounded-md bg-black text-white h-auto w-auto"
+        style="
+          font-family: monotype corsiva;
+          box-shadow: 5px 10px 10px rgb(230, 230, 230);
+        "
+      ></ul>
+
+      <input
+        type="text"
+        id="item"
+        placeholder="ITEM"
+        class="mt-10 border-2 p-2 border-black shadow-lg rounded-md"
+        style="
+          font-family: monotype corsiva;
+          box-shadow: 5px 10px 10px rgb(230, 230, 230);
+        "
+      />
+      <button
+        class="border-2 p-2 m-8 bg-blue-600 text-white rounded-md shadow-lg"
+        id="add"
+        style="box-shadow: 5px 10px 10px rgb(230, 230, 230); margin: 30px"
+      >
+        Add Item
+      </button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
